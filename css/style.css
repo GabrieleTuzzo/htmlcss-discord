@@ -49,7 +49,6 @@ p {
 }
 
 .row-reverse {
-    display: flex;
     flex-direction: row-reverse;
 }
 
@@ -110,8 +109,16 @@ header .container {
 }
 
 /* SECTION STYLE */
+body section:nth-child(even) {
+    background-color: rgb(246 246 246);
+}
+
 section {
     padding: 120px 0;
+}
+
+section .row {
+    align-items: center;
 }
 
 section.intro .container {
