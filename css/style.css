@@ -136,6 +136,31 @@ section.intro .col-100 {
     text-align: center;
 }
 
+section.performance .stars {
+    max-width: 650px;
+    margin: 0 auto;
+    margin-bottom: 65px;
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+section.performance .stars .row {
+    justify-content: center;
+    height: 100px;
+    align-items: end;
+}
+
+section.performance .special {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+section.performance .col-100 {
+    text-align: center;
+}
+
 /* FOOTER STYLE */
 footer .container {
     padding-top: 18px;
@@ -171,8 +196,16 @@ footer .row {
     background-color: rgb(35 39 42);
 }
 
+.bg-purple {
+    background-color: rgb(114 137 218);
+}
+
 .clr-black {
     color: black;
+}
+
+.clr-white {
+    color: white;
 }
 
 .arrow-symbl::before {
