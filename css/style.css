@@ -107,11 +107,7 @@ header {
 }
 
 /* SECTION STYLE */
-body section:nth-child(even) {
-    background-color: rgb(246 246 246);
-}
-
-section {
+section .container {
     padding: 120px 0;
 }
 
@@ -127,7 +123,6 @@ section.intro {
     background-image: url('../img/jumbo.png');
     background-size: cover;
     color: white;
-    padding: 120px 0;
 }
 
 section.intro .col-100 {
@@ -157,6 +152,21 @@ section.performance .special {
 
 section.performance .col-100 {
     text-align: center;
+}
+
+section.meet-friends .top-wave {
+    color: rgb(246 246 246);
+    background-color: white;
+}
+
+section.community .top-wave {
+    color: rgb(246 246 246);
+    background-color: white;
+}
+
+section.performance .top-wave {
+    color: rgb(246 246 246);
+    background-color: white;
 }
 
 /* FOOTER STYLE */
@@ -216,6 +226,10 @@ footer .logo-button {
 }
 
 /* UTILITIES */
+.bg-grey {
+    background-color: rgb(246 246 246);
+}
+
 .bg-white {
     background-color: white;
 }
@@ -247,6 +261,10 @@ footer .logo-button {
 
 .items-center {
     align-items: center;
+}
+
+.v-flip {
+    transform: scale(1,-1);
 }
 
 /* DEBUG STYLE */
