@@ -11,7 +11,6 @@ html {
 
 ul {
     list-style-type: none;
-    text-align: center;
 }
 
 a {
@@ -21,6 +20,12 @@ a {
 
 img {
     max-width: 100%;
+}
+
+select {
+    color: inherit;
+    border: none;
+    background-color: inherit;
 }
 
 /* H1 STYLE */
@@ -86,10 +91,6 @@ header {
     color: white;
 }
 
-header .container {
-    padding: 12px 0;
-}
-
 .header-img, .header-main {
     display: flex;
 }
@@ -97,10 +98,7 @@ header .container {
 .header-main {
     justify-content: space-between;
     align-items: center;
-}
-
-.header-main > * {
-    padding: 12px;
+    padding-top: 18px;
 }
 
 .header-menu {
@@ -162,13 +160,42 @@ section.performance .col-100 {
 }
 
 /* FOOTER STYLE */
-footer .container {
-    padding-top: 18px;
+footer {
+    color: white;
 }
 
-footer .row {
-    justify-content: space-between;
-    align-items: center;
+footer .logos > a:not(:last-child) {
+    margin-right: 16px;
+}
+
+footer h1,
+footer h2 {
+    color: rgb(114 137 218);
+}
+
+footer h1 {
+    font-size: 32px;
+}
+
+footer h2,
+footer li
+{
+    font-size: 16px;
+}
+
+footer li {
+    margin: 18px 0;
+}
+
+footer .footer-nav {
+    padding-top: 64px;
+    padding-bottom: 32px;
+}
+
+footer .logo-button {
+    border-top: 1px solid rgb(114 137 218);
+    padding-top: 24px;
+    padding-bottom: 38px;
 }
 
 /* BUTTON STYLES */
@@ -184,7 +211,8 @@ footer .row {
 }
 
 .button-sm {
-    line-height: 12px;
+    line-height: 36px;
+    padding: 0 12px;
 }
 
 /* UTILITIES */
@@ -211,6 +239,14 @@ footer .row {
 .arrow-symbl::before {
     content: "\2193";
     padding: 0 4px;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
 }
 
 /* DEBUG STYLE */
