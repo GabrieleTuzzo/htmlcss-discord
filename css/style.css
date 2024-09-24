@@ -85,6 +85,11 @@ p {
     width: calc(100% / 3);
 }
 
+/* LOGO PIXEL FIX */
+.logo img {
+    display: block;
+}
+
 /* HEADER STYLE */
 header {
     background-color: rgb(37 94 233);
